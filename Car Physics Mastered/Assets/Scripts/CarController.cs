@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class CarController : MonoBehaviour
@@ -15,6 +16,8 @@ public class CarController : MonoBehaviour
     [SerializeField] private float breakForce;
     [SerializeField] private float maxSteerAngle;
 
+    [SerializeField] private Transform centerOfGravity;
+    
     [SerializeField] private WheelCollider frontLeftWheelCollider;
     [SerializeField] private WheelCollider frontRightWheelCollider;
     [SerializeField] private WheelCollider rearLeftWheelCollider;
@@ -24,6 +27,11 @@ public class CarController : MonoBehaviour
     [SerializeField] private MeshRenderer frontRightWheelTransform;
     [SerializeField] private MeshRenderer rearLeftWheelTransform;
     [SerializeField] private MeshRenderer rearRightWheelTransform;
+
+    private void Start()
+    {
+        GetComponent<Rigidbody>().centerOfMass = centerOfGravity.localPosition;
+    }
 
     private void FixedUpdate()
     {
@@ -35,8 +43,8 @@ public class CarController : MonoBehaviour
 
     private void GetInput()
     {
-        _horizontalInput = Input.GetAxis(HORIZONTAl);
-        _verticalInput = Input.GetAxis(VERTICAL);
+        _horizontalInput = Input.GetAxisRaw(HORIZONTAl);
+        _verticalInput = Input.GetAxisRaw(VERTICAL);
 
         if (_verticalInput == 0 || Input.GetKey(KeyCode.Space))
         {
@@ -52,8 +60,6 @@ public class CarController : MonoBehaviour
     {
         frontLeftWheelCollider.motorTorque = _verticalInput * motorForce;
         frontRightWheelCollider.motorTorque = _verticalInput * motorForce;
-        rearLeftWheelCollider.motorTorque = _verticalInput * motorForce;
-        rearRightWheelCollider.motorTorque = _verticalInput * motorForce;
         _currentBreakForce = _isBreaking ? breakForce : 0f;
         ApplyBreaking();
 
