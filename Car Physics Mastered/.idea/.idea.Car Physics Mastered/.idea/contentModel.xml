@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ILLYA\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\ILLYA\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Car Physics Mastered.-465160585.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ILLYA\Desktop\Mastered\Car Physics Mastered\Car Physics Mastered" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Art" t="Include">
+          <e p="Free Low Poly Vehicles Pack by Rgsdev" t="Include">
+            <e p="Ambulance" t="Include" />
+            <e p="Bus" t="Include" />
+            <e p="Firetruck" t="Include" />
+            <e p="Hatchback" t="Include" />
+            <e p="License.txt" t="Include" />
+            <e p="Limousine" t="Include" />
+            <e p="Monster Truck" t="Include" />
+            <e p="Muscle" t="Include" />
+            <e p="Muscle 2" t="Include" />
+            <e p="Pickup" t="Include" />
+            <e p="Police Muscle" t="Include" />
+            <e p="Police Sedan" t="Include" />
+            <e p="Police Sports" t="Include" />
+            <e p="Police SUV" t="Include" />
+            <e p="Roadster" t="Include" />
+            <e p="Sedan" t="Include" />
+            <e p="Sports" t="Include" />
+            <e p="SUV" t="Include" />
+            <e p="Taxi" t="Include" />
+            <e p="Truck" t="Include" />
+            <e p="Truck with trailer" t="Include" />
+            <e p="Van" t="Include" />
+          </e>
+          <e p="Materials" t="Include" />
+        </e>
+        <e p="Prefabs" t="Include" />
+        <e p="Scenes" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="CameraFollow.cs" t="Include" />
+          <e p="CarController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Car Physics Mastered.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
