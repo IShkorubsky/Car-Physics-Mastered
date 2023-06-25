@@ -32,14 +32,24 @@
             <e p="Van" t="Include" />
           </e>
           <e p="Materials" t="Include" />
+          <e p="Simple Roads" t="Include">
+            <e p="Materials" t="Include" />
+            <e p="Models" t="Include" />
+            <e p="Prefabs" t="Include" />
+            <e p="Sample Scenes" t="Include" />
+          </e>
         </e>
+        <e p="CheckpointTrigger.cs" t="Include" />
+        <e p="GameOverTrigger.cs" t="Include" />
         <e p="Prefabs" t="Include" />
+        <e p="RotateArrow.cs" t="Include" />
         <e p="Scenes" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CameraFollow.cs" t="Include" />
           <e p="CarController.cs" t="Include" />
           <e p="CarControllerArcade.cs" t="Include" />
         </e>
+        <e p="WaypointManager.cs" t="Include" />
       </e>
       <e p="Car Physics Mastered.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
