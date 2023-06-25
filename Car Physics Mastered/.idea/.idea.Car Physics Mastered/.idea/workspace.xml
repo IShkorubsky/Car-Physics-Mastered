@@ -30,18 +30,24 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/WaypointManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RotateArrow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameOverTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Timer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarControllerArcade.cs" />
-        <option value="$PROJECT_DIR$/Assets/WaypointManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/CheckpointTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/RotateArrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/WaypointManager.cs" />
         <option value="$PROJECT_DIR$/Assets/GameOverTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/CheckpointTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/UIManager.cs" />
       </list>
     </option>
   </component>
@@ -91,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687682687648</updated>
-      <workItem from="1687682707809" duration="13183000" />
+      <workItem from="1687682707809" duration="17397000" />
     </task>
     <servers />
   </component>
@@ -113,5 +119,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1687704722116">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="223" width="672" height="678" key="search.everywhere.popup/-1920.6.1920.1032/1920.0.1920.1032/0.0.1920.1032@0.0.1920.1032" timestamp="1687704722116" />
   </component>
 </project>
